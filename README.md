@@ -1,8 +1,6 @@
 # tutorial_pkg  
 **ROS 2 Humble – Publisher, Subscriber e Launch file**
 
-![ROS2 Logo](docs/ros2_logo.png) <!-- opzionale: aggiungi immagine -->
-
 ---
 
 ## 📌 Descrizione del progetto
