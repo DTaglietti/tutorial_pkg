@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'minimal_publisher = tutorial_pkg.minimal_publisher:main',
+            'minimal_subscriber = tutorial_pkg.minimal_subscriber:main',
         ],
     },
 )
