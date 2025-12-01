@@ -10,6 +10,8 @@ setup(
         ('share/ament_index/resource_index/packages',
          ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name + '/launch',
+         ['launch/minimal_pub_sub.launch.py']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -19,9 +21,9 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-    'console_scripts': [
-        'minimal_publisher = tutorial_pkg.minimal_publisher:main',
-        'minimal_subscriber = tutorial_pkg.minimal_subscriber:main',
-    ],
-    }
+        'console_scripts': [
+            'minimal_publisher = tutorial_pkg.minimal_publisher:main',
+            'minimal_subscriber = tutorial_pkg.minimal_subscriber:main',
+        ],
+    },
 )
