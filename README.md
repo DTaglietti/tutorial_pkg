@@ -18,6 +18,7 @@ Questo progetto serve come base per apprendere:
 - creazione di un launch file
 - gestione professionale con Git e GitHub
 
+Ho anche creato un nuovo file per vedere se con VScode mi funziona il tutto.
 ---
 
 ## 🏗 Requisiti
